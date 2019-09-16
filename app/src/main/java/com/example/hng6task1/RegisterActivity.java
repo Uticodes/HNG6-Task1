@@ -1,5 +1,6 @@
 package com.example.hng6task1;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -13,7 +14,7 @@ import android.widget.EditText;
  * Created by Utibe Etim on 15/09/2019.
  */
 
-public class RegisterActivity extends AppCompatActivity {
+public class RegisterActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

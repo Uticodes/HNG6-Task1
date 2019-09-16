@@ -43,7 +43,7 @@
         android:layout_marginStart="1dp"
         android:layout_marginTop="24dp"
         android:layout_marginEnd="17dp"
-        android:background="@color/colorPrimary"
+        android:background="@drawable/button"
         android:text="@string/login"
         android:textColor="@color/white" />
 
@@ -58,7 +58,7 @@
         android:layout_marginTop="24dp"
         android:layout_toEndOf="@+id/btnLogin"
         android:layout_toRightOf="@+id/btnLogin"
-        android:background="@color/colorPrimary"
+        android:background="@drawable/button"
         android:text="@string/register"
         android:textColor="@color/white" />
 </RelativeLayout>
