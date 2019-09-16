@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:textColorHint="@color/colorPrimary"
+        android:id="@+id/etNewName"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="58dp"
+        android:hint="@string/enter_name" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:textColorHint="@color/colorPrimary"
+        android:id="@+id/etNewPassword"
+        android:layout_below="@+id/etNewName"
+        android:layout_centerHorizontal="true"
+        android:hint="@string/enter_password" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etNewEmail"
+        android:textColorHint="@color/colorPrimary"
+        android:layout_below="@+id/etNewPassword"
+        android:layout_alignLeft="@+id/etNewPassword"
+        android:layout_alignStart="@+id/etNewPassword"
+        android:layout_alignRight="@+id/etNewPassword"
+        android:layout_alignEnd="@+id/etNewPassword"
+        android:hint="@string/enter_email" />
+
+    <Button
+        android:id="@+id/btnNewRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etNewEmail"
+        android:layout_alignStart="@+id/etNewEmail"
+        android:layout_alignEnd="@+id/etNewEmail"
+        android:layout_marginStart="53dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="63dp"
+        android:background="@color/colorPrimary"
+        android:text="@string/register"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+</RelativeLayout>
